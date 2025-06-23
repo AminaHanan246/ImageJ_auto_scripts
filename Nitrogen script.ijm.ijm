@@ -67,7 +67,7 @@ run("Convert to Mask", "background=Light calculate only black");
 //ImageJ Macro to Open All Files in a Folder
 
 // Select the directory containing the images
-dir = getDirectory("Select the folder containing the images");
+dir = getDirectory("C:/Users/Amina Hanaan Majeed/OneDrive/Documents/MAJ PROJECT/Stem/Nitrogen/K359W");
 
 // Get the list of files in the directory
 fileList = getFileList(dir);
@@ -115,7 +115,7 @@ for (i = 0; i < imageTitles.length; i++) {
 //ImageJ Macro to Save and Close All Open Images with Modified Filenames
 
 // Select the directory where you want to save the images
-saveDir = getDirectory("Select the folder to save the images");
+saveDir = getDirectory("C:/Users/Amina Hanaan Majeed/OneDrive/Documents/MAJ PROJECT/Stem/Nitrogen/K359W");
 
 // Get the list of all open images
 imageTitles = getList("image.titles");
